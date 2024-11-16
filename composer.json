@@ -1,0 +1,23 @@
+{
+    "name": "ovalmedia/sitemap",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "files": [
+            "src/registration.php"
+        ],
+        "psr-4": {
+            "OM\\Sitemap\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ole Hornauer",
+            "email": "oh@oval-media.de"
+        }
+    ],
+    "require": {}
+}
